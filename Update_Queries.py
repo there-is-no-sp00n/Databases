@@ -77,6 +77,7 @@ print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 print("\n")
 
 # 3.5
+#already assigning a user to a role when making the user account
 #cur.execute("UPDATE INTO USER_ACCOUNT VALUES ('22', 'D.Beckham', '888-070-8888', 'coach')")
 
 # 3.6
@@ -129,9 +130,9 @@ print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 print("\n")
 
 # 3.7
+# when a table is created the owner is assigned, the owner has a role, and that role is assigned privileges
 
 # 3.8
-
 nombre_role = input("Enter role name: ")
 
 cur.execute("SELECT * FROM HAS_PRIV WHERE roleName = %s", nombre_role)
