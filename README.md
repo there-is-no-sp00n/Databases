@@ -1,3 +1,3 @@
 # Databases
 
-SQL Queries
+SQL Queries done through Python
