@@ -1,0 +1,9 @@
+create
+table 
+varchar
+int
+(
+)
+);
+),
+

@@ -1,0 +1,3 @@
+create table = struct
+x varchar(n) = char x[n]
+x int = int x
